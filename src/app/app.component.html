@@ -2,7 +2,9 @@
   <nava (navSelected)="navigate($event)">
   </nava>
 </div>
-<div class="background" [ngStyle]="{'background-image': 'url('+ background +')'}">
+<br>
+<div class="background"
+[ngStyle]="{'background-image': 'url('+ background +')'}">
 <div class = "container">
     <div class="col-md-12">
       <home *ngIf= "loadedFeature === 'home'">Home</home>

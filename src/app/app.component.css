@@ -1,0 +1,13 @@
+.background{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container{
+  margin-top: 1em;
+}
+.row{
+  padding: none;
+  margin: none;
+  border: none;
+  line-height: 0;
+}
