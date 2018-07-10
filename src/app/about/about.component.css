@@ -1,0 +1,17 @@
+.bg1{
+  background-color: rgba(128, 128, 128, 0.295);
+  color: white;
+  margin-top: 10em;
+  margin: 1em;
+  padding: 1em;
+}
+img{
+  float:left;
+}
+p{
+  color: white;
+  font-size: 23px;
+  margin-right: 2em;
+}
+
+

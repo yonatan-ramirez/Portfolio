@@ -1,1 +1,23 @@
-
+.body{
+  margin-top: 10em;
+}
+h2{
+  color: white;
+  font-size: 60px;
+  font-family: bold, cursive, sans-serif;
+}
+.quote{
+  width: 40px;
+  color: white;
+  font-family: bold, cursive, sans-serif;
+  font-size: 20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 2em;
+  padding: 3px;
+}
+.quotename{
+  color: white;
+  font-family: bold, cursive, sans-serif;
+  font-size: 17px;
+}

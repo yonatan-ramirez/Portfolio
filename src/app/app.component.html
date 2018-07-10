@@ -1,19 +1,26 @@
+<div class="background"
+[ngStyle]="{'background-image': 'url('+ background +')'}">
 <div class = "row">
   <nava (navSelected)="navigate($event)">
   </nava>
 </div>
 <br>
-<div class="background"
-[ngStyle]="{'background-image': 'url('+ background +')'}">
 <div class = "container">
     <div class="col-md-12">
       <home *ngIf= "loadedFeature === 'home'">Home</home>
 
       <about *ngIf= "loadedFeature === 'about'">About</about>
 
-      <portfolio *ngIf= "loadedFeature === 'portfolio'">Portfolio</portfolio>
+      <!-- <portfolio *ngIf= "loadedFeature === 'portfolio'">Portfolio</portfolio> -->
 
       <contacts *ngIf= "loadedFeature === 'contacts'">Contacts</contacts>
+
     </div>
   </div>
 </div>
+    <div class="footer">
+      <div class="text-center">
+
+          ©Copyright by Yonatan Ramirez
+      </div>
+    </div>

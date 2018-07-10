@@ -8,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  avatar1: string;
+  constructor() {
+    this.avatar1 = 'https://netbranding.co.nz/wp-content/uploads/2014/05/avatar-2.png';
+  }
 
   ngOnInit() {
   }

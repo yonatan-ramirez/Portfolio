@@ -7,10 +7,6 @@
   color: white;
   font-family: cursive, sans-serif;
 }
-nav{
-  background-color: black;
-  /* font-family: cursive, sans-serif; */
-}
 li{
   float:none;
   display: inline-block;
@@ -19,7 +15,4 @@ li{
   font-size: 23px;
   font-family: cursive, sans-serif;
   color: white;
-
-  /* background-color: lightgray; */
-
 }
