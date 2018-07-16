@@ -12,7 +12,7 @@ export class AppComponent {
   title = 'app';
 
   constructor() {
-    this.background = 'http://www.kensmithbasses.com/wp-content/uploads/2015/12/Grey-Radial-Gradient-Background-10.jpg';
+    this.background = '../assets/images/Grey-Radial-Gradient-Background-10.jpg';
   }
   navigate(feature: string) {
     console.log('set new feature', feature);

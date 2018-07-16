@@ -10,7 +10,7 @@ export class AboutComponent implements OnInit {
 
   avatar1: string;
   constructor() {
-    this.avatar1 = 'https://netbranding.co.nz/wp-content/uploads/2014/05/avatar-2.png';
+    this.avatar1 = '../../assets/images/myselfcropped.png';
   }
 
   ngOnInit() {

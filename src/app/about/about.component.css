@@ -1,11 +1,22 @@
+.about{
+  font-size: 40px;
+  color: lightblue;
+  margin-top: 3em;
+}
 .bg1{
   background-color: rgba(128, 128, 128, 0.295);
   color: white;
-  margin-top: 11em;
-  padding: 1em;
+  margin: 1em;
+  padding: 5em;
 }
-img{
-  float:left;
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 25px;
+}
+h3{
+  font-size: 20px;
 }
 p{
   color: white;
@@ -16,20 +27,20 @@ p{
   color: lightgray;
   font-size: 20px;
 }
-#A{
+.column{
   float: left;
-  width: 30%;
-  /* border: 2px solid blue; */
-  height: 50%;
-  /* margin-left: 5em; */
-}
-#B{
-  float:right;
-  font-size: 23px;
-  /* border: 2px solid red; */
   width: 50%;
-  height: 50%;
-  margin-right: 5em;
+  padding: 10px;
+  height: 300px;
+}
+img{
+  margin-left: 4em;
+  border: 2px solid white;
+  background-color: lightgray;
+}
+.row{
+  display: table;
+  clear: both;
 }
 .greeting{
   font-size: 30px;

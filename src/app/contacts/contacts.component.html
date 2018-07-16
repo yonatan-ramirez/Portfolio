@@ -1,3 +1,45 @@
-<p>
-  contacts works!
-</p>
+<div class="bgcontacts">
+  <div class="container">
+
+    <aside class="A">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfnujDiO_wsQCz74GFhG4UvLboOS9Egpb6T9UQhEHxBXEcvWg/viewform?embedded=true" width="550px" height="550px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </aside>
+
+    <aside class="B">
+    <h1>Get In Touch!</h1>
+
+    <span class="infoim">Phone:
+      <br>
+      <button type="button" (click)="changeShow()">
+        <div class="info" *ngIf="showHide">
+          (559)836-0590
+        </div>
+      </button>
+    </span>
+    <br>
+    <span class="infoim">Email:
+      <br>
+      <button type="button" (click)="changeShow2()">
+        <div class="info" *ngIf="showHide2">
+          Yonatan.ramirez557@gmail.com
+        </div>
+      </button>
+    </span>
+    <br>
+    <span class="infoim">Address:
+      <br>
+      <button type="button" (click)= "changeShow3()">
+        <div class="info" *ngIf="showHide3">
+         1952 S. Courtright Ave
+          <br>
+          Hanford CA, 93230
+          </div>
+       </button>
+    </span>
+    <div class="inframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d102871.44085103137!2d-119.7156241877424!3d36.318792570511114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shanford+california+google+map+code!5e0!3m2!1sen!2sus!4v1531621164987" width="450px" height="295px" frameborder="0" style="border:0" allowfullscreen="true"></iframe>
+    </div>
+    </aside>
+    </div>
+  </div>
+

@@ -1,21 +1,41 @@
 .background{
-  height: 50vw;
-  background-repeat: no-repeat;
+
   background-attachment: fixed;
-}
-.row{
-  padding: none;
-  margin: none;
-  border: none;
-  line-height: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 .container{
   margin-top: 2em;
 }
 .footer{
-background-color: black;
+margin-top: 13em;
+background-color: rgb(82, 80, 80);
 width: 100%;
-height: 40%;
+text-align: center;
+height: 32%;
 color: white;
-
+}
+/* .f1{
+  background-color: blue;
+} */
+/* .f2{
+  background-color: green;
+} */
+.f3{
+  font-size: 25px;
+  font-family: bold;
+}
+.f1, .f2, .f3 {
+  display: inline-block;
+  font-size: 15px;
+  padding: 0;
+  min-width: 300px;
+  width: 33%;
+  height: 20px;
+}
+i{
+  font-size: 30px;
+  margin: 5px;
 }

@@ -1,0 +1,34 @@
+.bgcontacts{
+  margin-top: 10em;
+  padding: 10px;
+  background-color: rgba(211, 211, 211, 0.275);
+  color: white;
+}
+h1{
+  color: lightblue;
+  font-family: bold;
+}
+.A{
+  width: 50%;
+  height: 50%;
+  float: left;
+  /* border: 1px solid green; */
+}
+.B{
+  width: 50%;
+  height: 50%;
+  float: right;
+  /* border: 1px solid blue; */
+}
+.infoim{
+  font-family: bold;
+  color: white;
+  font-size: 24px;
+  margin-top: 2em;
+}
+.info{
+  font-size: 15px;
+}
+button{
+  color: black;
+}
